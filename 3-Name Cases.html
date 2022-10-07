@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-Name Cases</title>
+</head>
+<body>
+
+
+<script>
+
+
+// begin lower case text 
+var _name = "MALIK SHAHBAZ KHAN"; 
+var _lowercase = _name.toLowerCase();
+console.log(_lowercase);
+// end lower case text 
+
+
+// begin upper case text 
+var _nameuppercase = "Malik Shahbaz Khan"; 
+var _uppercase = _nameuppercase.toUpperCase(); 
+console.log(_uppercase);
+// end upper case text 
+
+
+  // begin title Case text
+var myname = "malik shahbaz khan";
+function titleCase(msg){    
+ return msg.split(' ').map(word =>  word.charAt(0).toUpperCase() + word.substr(1).toLowerCase()).join(' ');}
+console.log(titleCase(myname));
+// end title Case text
+
+ </script>
+
+</body>
+</html>
